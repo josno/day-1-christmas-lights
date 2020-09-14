@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #141d26;
+	width: fit-content;
+	margin: 0;
+}
+
+.cord {
+	fill: none;
+	stroke: #606060;
+	stroke-width: 8px;
+}
