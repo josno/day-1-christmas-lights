@@ -13,3 +13,118 @@ body {
 	stroke: #606060;
 	stroke-width: 8px;
 }
+
+.bulb-container {
+	position: relative;
+}
+
+ul {
+	display: block;
+	list-style: none;
+	position: relative;
+}
+
+li:before {
+	content: "\A";
+	border-style: solid;
+	border-width: 8px 20px 15px 0;
+	border-color: #606060;
+	position: absolute;
+	left: 10px;
+	bottom: 96%;
+}
+
+li {
+	display: block;
+	list-style: none;
+	width: 40px;
+	height: 80px;
+	background-color: white;
+	border-radius: 40% 40% 50% 50%;
+	position: absolute;
+}
+
+#one {
+	right: 47rem;
+	bottom: 53px;
+	transform: rotate(20deg);
+}
+
+#two {
+	bottom: 30px;
+	left: 131px;
+}
+
+#three {
+	bottom: 92px;
+	left: 269px;
+	transform: rotate(-58deg);
+}
+
+#four {
+	bottom: 220px;
+	left: 290px;
+	transform: rotate(-85deg);
+}
+
+#five {
+	left: 21rem;
+	bottom: 18rem;
+	transform: rotate(-38deg);
+}
+
+#six {
+	bottom: 20rem;
+	left: 26rem;
+	transform: rotate(-4deg);
+}
+
+#seven {
+	bottom: 20rem;
+	left: 33rem;
+	transform: rotate(-19deg) translateY(-5px);
+}
+
+#eight {
+	bottom: 22rem;
+	left: 39rem;
+	transform: rotate(3deg) translate(-7px, 9px);
+}
+
+#nine {
+	bottom: 26rem;
+	left: 46rem;
+	transform: rotate(-60deg);
+}
+
+#ten {
+	bottom: 33rem;
+	left: 49rem;
+	transform: rotate(-95deg);
+}
+
+/* light up : #da8695 (red), #97e4e6 (blue), #f5d495 (orange), #a6f3a1 (green) */
+
+li:nth-child(4n + 1) {
+	background-color: #eb072f;
+	box-shadow: 8px 15px 50px #eb072f, 0px 20px 40px #eb072f,
+		-8px 15px 50px #eb072f;
+}
+
+li:nth-child(4n + 2) {
+	background-color: #34ecf2;
+	box-shadow: 8px 15px 50px #34ecf2, 0px 20px 40px #34ecf2,
+		-8px 15px 50px #34ecf2;
+}
+
+li:nth-child(4n + 3) {
+	background-color: #ef9e00;
+	box-shadow: 8px 15px 50px #ef9e00, 0px 20px 40px #ef9e00,
+		-8px 15px 50px #ef9e00;
+}
+
+li:nth-child(4n + 4) {
+	background-color: #23bf16;
+	box-shadow: 8px 15px 50px #23bf16, 0px 20px 40px #23bf16,
+		-8px 15px 50px #23bf16;
+}
